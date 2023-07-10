@@ -3,6 +3,11 @@ import './Header.css'
 import logo from '../../assets/img/logo.png'
 import { Link } from 'react-router-dom'
 function Header() {
+
+    const handleClick = ()=>{
+        window.open('https://github.com/SanjaySekharipuram','_blank')
+    }
+
     const nav_titles = [{
         path:'/',display:'Home'
     },
@@ -22,10 +27,10 @@ function Header() {
 
                 <div className='nav_container'>
                     <div  className='logo'>
-                        <div className='logo-img'>
+                        <div className='logo-img'  onClick={handleClick}>
                             <img src={logo} alt='logo-img'/>
                         </div>
-                        <h2>Demo</h2>
+                        <h2>HAVANA</h2>
                     </div>
                     <div className='navigation'>
                         <ul className='menu'>

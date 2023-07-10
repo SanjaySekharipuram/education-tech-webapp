@@ -17,7 +17,7 @@ function Home() {
             <div className='home-container'>
                 <div className='home-content'>
                     <h2 className='section_title'>Learn Everthing for free</h2>
-                    <p>Master Trending Technologies with TechFlix AI,Invest Your Time and return skills</p>
+                    <p>Master Trending Technologies with Havana,Invest Your Time and return skills</p>
                     <div className='home-btns'>
                         <button className='register-btn' onClick={handleClick}>Get Started</button>
                         <button className='register-btn' onClick={handleClick}>Watch Now</button>

@@ -22,9 +22,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 .logo-img img{
-    width: 6rem;
+    width: 8rem;
 }
 .navigation{
     display: flex;

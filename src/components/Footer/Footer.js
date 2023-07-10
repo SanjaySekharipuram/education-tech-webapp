@@ -4,6 +4,10 @@ import footer from '../../assets/img/footer.png'
 import { Link } from 'react-router-dom'
 
 function Footer() {
+    
+    const handleOnClick = ()=>{
+        window.open('https://github.com/SanjaySekharipuram','_blank')
+    }
     const handleClick = ()=>{
         window.scrollTo(0,0)
     }
@@ -13,7 +17,7 @@ function Footer() {
                 <div className='footer_wrapper'>
                     <div className='footer-box'>
                         <div className='logo'>
-                            <div className='logo-img'>
+                            <div className='logo-img' onClick={handleOnClick}>
                                 <img src={footer} alt='footer-img' />
                             </div>
                             <h2>Demo</h2>
